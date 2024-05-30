@@ -1,11 +1,18 @@
-@misc{LMMRT22,
-    author       = {Chen-Da Liu-Zhang and
-		    Christian Matt and
-		    Ueli Maurer and
-		    Guilherme Rito and
-		    Søren Eller Thomsen},
-    title        = {Practical Provably Secure Flooding for Blockchains},
-    howpublished = {Cryptology ePrint Archive, Report 2022/608},
-    year         = {2022},
-    note         = {\url{https://ia.cr/2022/608}},
+@InProceedings{LMMRT22,
+author="Liu-Zhang, Chen-Da
+and Matt, Christian
+and Maurer, Ueli
+and Rito, Guilherme
+and Thomsen, S{\o}ren Eller",
+editor="Agrawal, Shweta
+and Lin, Dongdai",
+title="Practical Provably Secure Flooding for Blockchains",
+booktitle="Advances in Cryptology -- ASIACRYPT 2022",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="774--805",
+abstract="In recent years, permisionless blockchains have received a lot of attention both from industry and academia, where substantial effort has been spent to develop consensus protocols that are secure under the assumption that less than half (or a third) of a given resource (e.g., stake or computing power) is controlled by corrupted parties. The security proofs of these consensus protocols usually assume the availability of a network functionality guaranteeing that a block sent by an honest party is received by all honest parties within some bounded time. To obtain an overall protocol that is secure under the same corruption assumption, it is therefore necessary to combine the consensus protocol with a network protocol that achieves this property under that assumption. In practice, however, the underlying network is typically implemented by flooding protocols that are not proven to be secure in the setting where a fraction of the considered total weight can be corrupted. This has led to many so-called eclipse attacks on existing protocols and tailor-made fixes against specific attacks.",
+isbn="978-3-031-22963-3"
 }
+
